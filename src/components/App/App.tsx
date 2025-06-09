@@ -8,7 +8,7 @@ import ErrorMessage from '../ErrorMessage/ErrorMessage';
 import { useState } from 'react';
 import { useDebounce } from 'use-debounce';
 import { keepPreviousData, useQuery } from '@tanstack/react-query';
-import { fetchNotes } from '../../services/noteServicew';
+import { fetchNotes } from '../../services/noteService';
 
 export default function App() {
   const [query, setQuery] = useState<string>('');
